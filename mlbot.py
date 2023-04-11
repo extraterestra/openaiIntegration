@@ -25,7 +25,7 @@ class MainWindow(QWidget):
     def init_ui(self):
         #Create the widgets
         self.logo_label = QLabel()
-        self.logo_pixmap = QPixmap('robot.png').scaled(150,150, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+        self.logo_pixmap = QPixmap('robot.png').scaled(150,200, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.logo_label.setPixmap(self.logo_pixmap)
 
         self.input_label = QLabel('Ask a question:')
